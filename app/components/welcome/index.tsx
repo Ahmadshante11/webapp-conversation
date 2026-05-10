@@ -372,10 +372,9 @@ const Welcome: FC<IWelcomeProps> = ({
         {/* Has set inputs */}
         {hasSetInputs && renderHasSetInputs()}
 
-        {/* foot */}
+      {/* foot */}
         {!hasSetInputs && (
           <div className='mt-4 flex justify-between items-center h-8 text-xs text-gray-400'>
-
             {siteInfo.privacy_policy
               ? <div>{t('app.chat.privacyPolicyLeft')}
                 <a
@@ -385,15 +384,14 @@ const Welcome: FC<IWelcomeProps> = ({
                 >{t('app.chat.privacyPolicyMiddle')}</a>
                 {t('app.chat.privacyPolicyRight')}
               </div>
-              : <div>
-              </div>}
-         <a className='flex items-center pr-3 space-x-3' href="https://medicoai.online/" target="_blank">
-              <span className='uppercase text-gray-500'>Developed by MedcoAI</span>
+              : <div></div>}
+            <a className='flex items-center pr-3 space-x-3' href="https://medicoai.online/" target="_blank">
+              <span className='uppercase'>Developed by MedcoAI</span>
             </a>
           </div>
         )}
       </div>
-    </div >
+    </div>
   )
 }
 
