@@ -387,9 +387,9 @@ const Welcome: FC<IWelcomeProps> = ({
               </div>
               : <div>
               </div>}
-          <a className='flex items-center pr-3 space-x-3' href="https://medicoai.online/" target="_blank">
-  <span className='uppercase'>Developed by MedcoAI</span>
-</a>
+         <a className='flex items-center pr-3 space-x-3' href="https://medicoai.online/" target="_blank">
+              <span className='uppercase text-gray-500'>Developed by MedcoAI</span>
+            </a>
           </div>
         )}
       </div>
